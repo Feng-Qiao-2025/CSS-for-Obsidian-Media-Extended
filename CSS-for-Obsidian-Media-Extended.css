@@ -1,0 +1,174 @@
+/* Feng-Qiao-2025 */
+/* 修改播放按钮样式 */
+button[aria-label="Play"] {
+    background-color: #5b82f7; /* 蓝色背景 */
+    color: #FFFFFF; /* 白色文字 */
+    border: none; /* 无边框 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+    width: 50px !important; /* 增加按钮宽度 */
+    height: 50px !important; /* 增加按钮高度 */
+    margin-right: 10px !important; /* 按钮之间的间距 */
+}
+
+/* 修改播放按钮内的SVG图标颜色 */
+button[aria-label="Play"] svg {
+    stroke: #FFFFFF; /* 白色描边 */
+    height: 24px; /* 调整SVG图标高度 */
+    width: 24px; /* 调整SVG图标宽度 */
+}
+
+/* 修改播放按钮悬停样式 */
+button[aria-label="Play"]:hover {
+    background-color: #ff904b !important; /* 橙色背景 */
+}
+
+/* 修改暂停按钮样式 */
+button[aria-label="Pause"] {
+    background-color: #f75b5b; /* 红色背景 */
+    color: #FFFFFF; /* 白色文字 */
+    border: none; /* 无边框 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+    width: 50px !important; /* 增加按钮宽度 */
+    height: 50px !important; /* 增加按钮高度 */
+    margin-right: 10px !important; /* 按钮之间的间距 */
+}
+
+/* 修改暂停按钮内的SVG图标颜色 */
+button[aria-label="Pause"] svg {
+    stroke: #FFFFFF; /* 白色描边 */
+    height: 24px; /* 调整SVG图标高度 */
+    width: 24px; /* 调整SVG图标宽度 */
+}
+
+/* 修改暂停按钮悬停样式 */
+button[aria-label="Pause"]:hover {
+    background-color: #4b90ff !important; /* 浅蓝色背景 */
+}
+
+/* 修改静音按钮样式 */
+button[aria-label="Mute"] {
+    background-color: #f75b5b; /* 红色背景 */
+    color: #FFFFFF; /* 白色文字 */
+    border: none; /* 无边框 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+    width: 50px !important; /* 增加按钮宽度 */
+    height: 50px !important; /* 增加按钮高度 */
+    margin-right: 10px !important; /* 按钮之间的间距 */
+}
+
+/* 修改静音按钮内的SVG图标颜色 */
+button[aria-label="Mute"] svg {
+    stroke: #FFFFFF; /* 白色描边 */
+    height: 24px; /* 调整SVG图标高度 */
+    width: 24px; /* 调整SVG图标宽度 */
+}
+
+/* 修改静音按钮悬停样式 */
+button[aria-label="Mute"]:hover {
+    background-color: #ff904b !important; /* 橙色背景 */
+}
+
+/* 修改取消静音按钮样式 */
+button[aria-label="Unmute"] {
+    background-color: #5b82f7; /* 蓝色背景 */
+    color: #FFFFFF; /* 白色文字 */
+    border: none; /* 无边框 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+    width: 50px !important; /* 增加按钮宽度 */
+    height: 50px !important; /* 增加按钮高度 */
+    margin-right: 10px !important; /* 按钮之间的间距 */
+}
+
+/* 修改取消静音按钮内的SVG图标颜色 */
+button[aria-label="Unmute"] svg {
+    stroke: #FFFFFF; /* 白色描边 */
+    height: 24px; /* 调整SVG图标高度 */
+    width: 24px; /* 调整SVG图标宽度 */
+}
+
+/* 修改取消静音按钮悬停样式 */
+button[aria-label="Unmute"]:hover {
+    background-color: #4b90ff !important; /* 浅蓝色背景 */
+}
+
+/* 修改全屏按钮样式 */
+button[aria-label="Enter fullscreen"] {
+    background-color: #f75b5b; /* 红色背景 */
+    color: #FFFFFF; /* 白色文字 */
+    border: none; /* 无边框 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+    width: 50px !important; /* 增加按钮宽度 */
+    height: 50px !important; /* 增加按钮高度 */
+    margin-right: 10px !important; /* 按钮之间的间距 */
+}
+
+/* 修改全屏按钮内的SVG图标颜色 */
+button[aria-label="Enter fullscreen"] svg {
+    stroke: #FFFFFF; /* 白色描边 */
+    height: 24px; /* 调整SVG图标高度 */
+    width: 24px; /* 调整SVG图标宽度 */
+}
+
+/* 修改全屏按钮悬停样式 */
+button[aria-label="Enter fullscreen"]:hover {
+    background-color: #ff904b !important; /* 橙色背景 */
+}
+
+/* 修改退出全屏按钮样式 */
+button[aria-label="Exit fullscreen"] {
+    background-color: #f75b5b; /* 红色背景 */
+    color: #FFFFFF; /* 白色文字 */
+    border: none; /* 无边框 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+    width: 50px !important; /* 增加按钮宽度 */
+    height: 50px !important; /* 增加按钮高度 */
+    margin-right: 10px !important; /* 按钮之间的间距 */
+}
+
+/* 修改退出全屏按钮内的SVG图标颜色 */
+button[aria-label="Exit fullscreen"] svg {
+    stroke: #FFFFFF; /* 白色描边 */
+    height: 24px; /* 调整SVG图标高度 */
+    width: 24px; /* 调整SVG图标宽度 */
+}
+
+/* 修改退出全屏按钮悬停样式 */
+button[aria-label="Exit fullscreen"]:hover {
+    background-color: #ff904b !important; /* 橙色背景 */
+}
+
+/* 修改更多选项按钮样式 */
+button[aria-label="More options"] {
+    background-color: #f75b5b; /* 红色背景 */
+    color: #FFFFFF; /* 白色文字 */
+    border: none; /* 无边框 */
+    cursor: pointer; /* 鼠标悬停时显示指针 */
+    width: 50px !important; /* 增加按钮宽度 */
+    height: 50px !important; /* 增加按钮高度 */
+    margin-right: 10px !important; /* 按钮之间的间距 */
+}
+
+/* 修改更多选项按钮内的SVG图标颜色 */
+button[aria-label="More options"] svg {
+    stroke: #FFFFFF; /* 白色描边 */
+    height: 24px; /* 调整SVG图标高度 */
+    width: 24px; /* 调整SVG图标宽度 */
+}
+
+/* 修改更多选项按钮悬停样式 */
+button[aria-label="More options"]:hover {
+    background-color: #ff904b !important; /* 橙色背景 */
+}
+
+/* 修改文字段的样式，包括边框、内部填充颜色和与前一个元素的距离 */
+span.inline-block.flex-1.overflow-hidden.text-ellipsis.whitespace-nowrap.px-2.text-sm.font-medium.text-white\/70 {
+    color: #000000; /* 黑色文字 */
+    background-color: #ffffff; /* 白色背景 */
+    border-radius: 4px; /* 边框圆角 */
+    padding: 2px 10px; /* 内边距 */
+    margin-left: 10px; /* 与前一个元素的距离 */
+    font-weight: bold; /* 粗体 */
+    display: inline-block; /* 使内边距生效 */
+    max-width: 100%; /* 最大宽度 */
+    text-align: center; /* 文本居中 */
+}
